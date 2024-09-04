@@ -1,0 +1,57 @@
+    .post-entry .post-text h3 a:hover {
+      color: #ff6300;
+    }
+
+    .post-entry {
+      padding: 22px 12px 12px 12px;
+      border: 1px solid #cdcdcd;
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .post-entry:hover {
+      border: 1px solid #e5610f;
+    }
+
+    .post-entry a {
+      text-align: center;
+    }
+
+    .post-text {
+      padding: 0px 12px;
+    }
+
+    .post-text .text-truncate {
+      white-space: normal;
+    }
+
+    .post-text p:nth-child(3) {
+      color: #6f6f71;
+    }
+
+    .post-entry .post-text .post-meta {
+      color: #909090;
+    }
+
+    .las.la-gopuram,
+    .las.la-calendar {
+      font-size: 1.5rem;
+      color: #ff6300;
+    }
+
+    /* pagination css */
+
+
+    /* pagination css end */
+
+    @media screen and (max-device-width: 425px) {
+
+      p {
+        font-size: 0.8rem;
+      }
+
+      p.aos-animate {
+        font-size: 1rem;
+      }
+    }
